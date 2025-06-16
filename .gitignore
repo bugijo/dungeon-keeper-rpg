@@ -1,0 +1,64 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Local development settings
+.env
+
+# Cache directories
+.pytest_cache/
+.mypy_cache/
+
+# Documentation build
+docs/_build/
+
+# Large executable files
+dnd5e_reference/*.exe
+dnd5e_reference/*.msi
+dnd5e_reference/*.dmg
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
