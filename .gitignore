@@ -1,60 +1,54 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
 
-# Virtual environments
+# Virtual Environment
 venv/
 env/
+ENV/
+.venv/
 .env/
 
-# IDE files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Test coverage
-.coverage
-htmlcov/
-
-# Logs
-*.log
-
-# Local development settings
+# Environment variables
 .env
-
-# Cache directories
-.pytest_cache/
-.mypy_cache/
-
-# Documentation build
-docs/_build/
-
-# Large executable files
-dnd5e_reference/*.exe
-dnd5e_reference/*.msi
-dnd5e_reference/*.dmg
-
-# Node modules
-node_modules/
-
-# Build outputs
-dist/
-build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Database
 *.db
 *.sqlite
+*.sqlite3
+dungeon_keeper.db
 
-# OS generated files
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 .DS_Store?
 ._*
@@ -62,3 +56,117 @@ build/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Uploads
+uploads/
+static/uploads/
+
+# Temporary files
+tmp/
+temp/
+
+# Test files
+test_*.py
+*_test.py
+tests/
+pytest_cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local development
+local_settings.py
+dev_settings.py
+
+# Production settings
+prod_settings.py
+production_settings.py
